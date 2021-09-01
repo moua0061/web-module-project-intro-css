@@ -43,7 +43,6 @@ blockquote, q {
 	padding:0;
 	margin: 0;
 	max-width: 100%;
-	border: 1px solid grey;
 }
 
 /* general styles */
@@ -131,9 +130,46 @@ nav a{
 .right div{
 	position: absolute;
 	top: 40%;
+	text-align:center;
 }
 
+.information {
+	background-color: #DDB9A3;
+	padding: 1% 0;
+	color:white;
+	margin: 0 5%;
+	text-align:center;
+}
 
+.icons{
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align:center;
+}
+
+.icons img{
+	width:20%;
+	height:auto;
+}
+
+.icons p{
+	margin-left:20%;
+	margin-right:20%;
+}
+
+.footer{
+    margin-top: 0%;
+    background-image: url('assets/footer_img.jpg');
+    height:40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+  }
+
+.nav2{
+	background-color: #F9E7DC;
+}
 
 
 
