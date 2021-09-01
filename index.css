@@ -108,6 +108,7 @@ nav a{
 /* title section */
 .title {
 	text-align;center;
+	position: relative;
 }
 .left, .right{
 	display: inline-block;
@@ -125,6 +126,11 @@ nav a{
 .right{
 	width: 55%;
 	margin-left: 5%;
+}
+
+.right div{
+	position: absolute;
+	top: 40%;
 }
 
 
